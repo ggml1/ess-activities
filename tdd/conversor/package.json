@@ -1,0 +1,19 @@
+{
+  "name": "conversor-temp",
+  "version": "1.0.0",
+  "description": "\"RESTful API that converts temperatures between Fahrenheit, Celsius and Kelvin\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha src/test/*.js --timeout 2000"
+  },
+  "author": "Gabriel Mendes",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "request": "^2.88.0"
+  }
+}

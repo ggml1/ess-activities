@@ -1,0 +1,16 @@
+{
+  "name": "triangulo",
+  "version": "1.0.0",
+  "description": "Projeto em Node.js para exercitar o conceito de test cases, inspirado no exemplo do livro \"The Art of Software Testing\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha src/test/*.js --timeout 2000"
+  },
+  "author": "Kiev Gama",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
