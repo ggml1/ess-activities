@@ -30,7 +30,7 @@ This will convert temperature X in scale Y to scale Z, where:
 	- K (Kelvin)
 
 
-To run the tests, enter the following command (make sure the server is not up while doing so):
+To run the tests, enter the following command on the topmost level of the `/conversor` folder (and make sure the server is not up while doing so):
 ```bash
 $ npm test
 ```
